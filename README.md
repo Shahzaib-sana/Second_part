@@ -2,7 +2,6 @@
 
 -docker ps <container_id> (to list all running containers):
 
-
 #output:
 
 CONTAINER ID   IMAGE       COMMAND             CREATED             STATUS          PORTS      NAMES
