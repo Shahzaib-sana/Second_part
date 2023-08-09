@@ -1,6 +1,10 @@
 #docker container with commands:
 
 -docker ps <container_id> (to list all running containers):
+
+
+#output:
+
 CONTAINER ID   IMAGE       COMMAND             CREATED             STATUS          PORTS      NAMES
 9ea4eaeef1b5   hello-app   "python hello.py"   About an hour ago   Up 28 minutes   8080/tcp   new-name
 
