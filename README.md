@@ -2,26 +2,26 @@
 
 -docker ps <container_id> (to list all running containers):
 
-# output:
+#output:
 
 CONTAINER ID   IMAGE       COMMAND             CREATED             STATUS          PORTS      NAMES
 9ea4eaeef1b5   hello-app   "python hello.py"   About an hour ago   Up 28 minutes   8080/tcp   new-name
 
 -docker stop <container_id> (to stop the running container):
 
-# output:
+#output:
 
 9ea4eaeef1b5
 
 -docker rm <container_id> (to remove the stopped container):
 
-# output:
+#output:
 
 e7243e2033f8
 
 -docker logs <container_id> (to see the logs of container):
 
-# output:
+#output:
 
 Traceback (most recent call last):
   File "/part_one/hello.py", line 10, in <module>
@@ -36,7 +36,7 @@ Traceback (most recent call last):
 
  -docker inspect <container_id> (to view the detail of a container):
 
- # output:
+ #output:
  
  [
     {
@@ -66,7 +66,7 @@ Traceback (most recent call last):
 
 -docker exec <container_id> ls (to execute the command inside the container):
 
-# output:
+#output:
 
 hello.py
 
